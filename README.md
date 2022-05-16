@@ -31,7 +31,7 @@ H0: Доля лиц, у которых проявляется исследуем
 H1: Доля лиц, у которых проявляется исследуемый эффект, в выборке 1 больше, чем в выборке 2.
 
 # Пример
-
+    # [[Share of the first criterion (float), Share the second criterion (float)], [Total size of the first group (int), Total size of the second group (int)]]
     print(fisher_psi([[0.857, 0.667], [28, 30]]))
     print(fisher_psi([[0.107, 0.267], [28, 30]]))
     
